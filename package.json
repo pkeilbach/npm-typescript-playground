@@ -1,5 +1,5 @@
 {
-  "name": "typescript-playground",
+  "name": "@pkeilbach/typescript-playground",
   "version": "1.0.0",
   "description": "My typescript playground project.",
   "main": "lib/index.js",
