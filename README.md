@@ -1,6 +1,6 @@
-# Typescript Playground
+# NPM Typescript Playground
 
-My typescript playground project.
+My playground project for typescript npm packages.
 
 Useful resources:
 - https://itnext.io/step-by-step-building-and-publishing-an-npm-typescript-package-44fe7164964c

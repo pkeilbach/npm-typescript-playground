@@ -1,7 +1,7 @@
 {
-  "name": "@pkeilbach/typescript-playground",
-  "version": "1.0.1",
-  "description": "My typescript playground project.",
+  "name": "@pkeilbach/npm-typescript-playground",
+  "version": "1.0.0",
+  "description": "My playground project for typescript npm packages.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "directories": {
@@ -20,18 +20,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pkeilbach/typescript-playground.git"
+    "url": "git+https://github.com/pkeilbach/npm-typescript-playground.git"
   },
   "keywords": [
+    "npm",
     "typescript",
     "playground"
   ],
   "author": "pkeilbach",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pkeilbach/typescript-playground/issues"
+    "url": "https://github.com/pkeilbach/npm-typescript-playground/issues"
   },
-  "homepage": "https://github.com/pkeilbach/typescript-playground#readme",
+  "homepage": "https://github.com/pkeilbach/npm-typescript-playground#readme",
   "devDependencies": {
     "@types/jest": "^29.4.0",
     "jest": "^29.4.2",
