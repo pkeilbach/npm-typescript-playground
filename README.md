@@ -1,4 +1,4 @@
-# NPM Typescript Playground
+# NPM TypeScript Playground
 
 My playground project for typescript npm packages.
 
