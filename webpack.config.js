@@ -17,7 +17,7 @@ module.exports = {
     extensions: ['.tsx', '.ts', '.js'],
   },
   output: {
-    filename: 'playground.js',
+    filename: 'bundle.js',
     path: path.resolve(__dirname, 'lib'),
     globalObject: 'this',
     library: {
