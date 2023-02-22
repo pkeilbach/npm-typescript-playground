@@ -9,7 +9,9 @@
   },
   "scripts": {
     "test": "jest --config jestconfig.json",
-    "build": "tsc",
+    "build": "npm run build:tsc && npm run build:webpack",
+    "build:tsc": "tsc",
+    "build:webpack": "webpack",
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
     "prepare": "npm run build",
