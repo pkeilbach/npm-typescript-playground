@@ -1,6 +1,6 @@
 {
   "name": "@pkeilbach/npm-typescript-playground",
-  "version": "1.2.10",
+  "version": "1.2.8",
   "description": "My playground project for typescript npm packages.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -13,7 +13,8 @@
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
     "prepare": "npm run build",
-    "prepublishOnly": "npm test && npm run lint"
+    "prepublishOnly": "npm test && npm run lint",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
