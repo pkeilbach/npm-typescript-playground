@@ -1,6 +1,6 @@
 {
   "name": "@pkeilbach/npm-typescript-playground",
-  "version": "1.2.8",
+  "version": "1.2.9",
   "description": "My playground project for typescript npm packages.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
